@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import aboutImage from "../assets/images/about.jpeg";
 const About = () => {
+  const [showMore, setShowMore] = useState(false);
+
+  const handleToggle = () => {
+    setShowMore(!showMore);
+  };
   return (
     <section className="section" id="about">
       <div className="section-title">
@@ -15,20 +20,41 @@ const About = () => {
           <img src={aboutImage} className="about-photo" />
         </div>
         <article className="about-info">
-          <h1>web developer</h1>
+          <h1>Bhanu Prakash</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea,
-            laudantium. Nesciunt quae soluta aperiam nisi totam voluptatibus
-            ipsa error quas? Eveniet enim reprehenderit ab esse quibusdam alias
-            odio, expedita exercitationem! Aliquid, dolorum! Praesentium,
-            debitis. Facilis beatae provident facere dignissimos tempora, et
-            iste, unde voluptatum qui doloribus explicabo consectetur, dolore
-            hic sapiente quia rem. Ullam, minima! Minima itaque officiis eos
-            velit.
+            Hi, I’m a dedicated Web Developer with a passion for crafting scalable, user-centric applications. Since joining HCLTech in November 2022, I've been immersed in dynamic development environments, building solutions that make a global impact.
+          </p>
+          <p>
+            I started my journey working with Western Union, contributing to
+            the development and support of applications across multiple
+            countries and regions. My focus was on integrating diverse payment
+            methods using the AngularJS framework—ensuring a seamless user
+            experience across geographies and devices.
+          </p>
+          {/* <p>
+            I started my journey working with Western Union, contributing to the development and support of applications across multiple countries and regions. My focus was on integrating diverse payment methods using the AngularJS framework—ensuring a seamless user experience across geographies and devices.
+          </p>
+          <p>
+            Later, I transitioned to HCL Hive, a cutting-edge data visualization platform under HCL Software, where I worked extensively with ReactJS and Kendo UI. Here, I helped turn complex cloud-related data into intuitive visual dashboards, empowering users with actionable insights and streamlined interfaces.
           </p>
           <a href="" className="btn">
             read more
-          </a>
+          </a> */}
+          {showMore && (
+        <>
+          <p>
+            Later, I transitioned to HCL Hive, a cutting-edge data
+            visualization platform under HCL Software, where I worked
+            extensively with ReactJS and Kendo UI. Here, I helped turn complex
+            cloud-related data into intuitive visual dashboards, empowering
+            users with actionable insights and streamlined interfaces.
+          </p>
+        </>
+      )}
+
+      <button className="btn" onClick={handleToggle}>
+        {showMore ? "read less" : "read more"}
+      </button>
         </article>
       </div>
     </section>

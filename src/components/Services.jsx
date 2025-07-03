@@ -16,7 +16,7 @@ const Services = () => {
             <article className="service" key={service.id}>
               {/* <span className="service-icon"> */}
               <span>
-                <img src="service.icon" alt="icon..."/>
+                <img src={service.icon} alt="icon..." style={{width:"50px", height:"50px"}} />
               </span>
 
               <div className="service-info">
