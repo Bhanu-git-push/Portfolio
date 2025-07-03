@@ -14,8 +14,17 @@ const Main = () => {
         <p>
           When I’m not coding, you’ll find me exploring new tech trends, contributing to open-source projects, or sketching out UI ideas in my notebook. I believe in continuous learning and collaboration—and I’m always excited to take on new challenges.
         </p>
-        <a className="btn hero-btn">
-          resume
+        {/* <a className="btn hero-btn">
+          Resume
+        </a> */}
+        <a
+            className="btn hero-btn"
+            href="/public/bhanu_FrontendDeveloper-1 2.pdf"
+            download="BhanuPrakash-Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+          Resume
         </a>
       </div>
     </section>

@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div className="nav-header">
-          <div>portfolio</div>
+          <div style={{fontSize:"17px"}}><strong>portfolio</strong></div>
         </div>
 
         <ul className="nav-links" id="nav-links">
@@ -20,9 +20,9 @@ const Navbar = () => {
         </ul>
         <ul className="nav-icons">
           {socialLinks.map((link) => {
-            const { href, icon } = link;
+            const { href, icon, color } = link;
             return (
-              <a href={href} className="nav-icon" key={link.id} target="_blank" rel="noopener noreferrer">
+              <a href={href} className="nav-icon" key={link.id} target="_blank" rel="noopener noreferrer" style={{ color }}>
                 <i>{icon}</i>
               </a>
             );

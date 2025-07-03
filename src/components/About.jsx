@@ -45,7 +45,7 @@ const About = () => {
           <p>
             Later, I transitioned to HCL Hive, a cutting-edge data
             visualization platform under HCL Software, where I worked
-            extensively with ReactJS and Kendo UI. Here, I helped turn complex
+            extensively with React JS and Kendo UI. Here, I helped turn complex
             cloud-related data into intuitive visual dashboards, empowering
             users with actionable insights and streamlined interfaces.
           </p>
