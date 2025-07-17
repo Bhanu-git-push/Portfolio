@@ -2,6 +2,7 @@ import project1 from "./assets/images/project-1.jpeg";
 import project2 from "./assets/images/project-2.jpeg";
 import project3 from "./assets/images/project-3.jpeg";
 import project4 from "./assets/images/project-4.jpeg";
+import restaurant_ss from "./assets/images/Restaurant_SS.png";
 import HTMLIcon from "./assets/images/732212.png";
 
 export const pageLinks = [
@@ -89,10 +90,10 @@ export const services = [
 export const project = [
   {
     id: 1,
-    image: project1,
+    image: restaurant_ss,
     date: "august 26th, 2020",
-    title: "Tibet Adventure",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    title: "Simple Restaurant app",
+    info: `Made a simple restaurant where user can access hotels list and can add their own. Used axios, local json server for backend, routers and implemented CRUD operators using axios`,
   },
   {
     id: 2,
