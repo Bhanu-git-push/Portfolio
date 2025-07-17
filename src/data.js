@@ -1,8 +1,7 @@
-import project1 from "./assets/images/project-1.jpeg";
-import project2 from "./assets/images/project-2.jpeg";
-import project3 from "./assets/images/project-3.jpeg";
+import project1 from "./assets/images/Restaurant_SS.png";
+import project2 from "./assets/images/clothing_store_SS.png";
+import project3 from "./assets/images/comfy_store_SS.png";
 import project4 from "./assets/images/project-4.jpeg";
-import restaurant_ss from "./assets/images/Restaurant_SS.png";
 import HTMLIcon from "./assets/images/732212.png";
 
 export const pageLinks = [
@@ -12,10 +11,30 @@ export const pageLinks = [
   { id: 4, href: "#project", text: "project" },
 ];
 export const socialLinks = [
-  { id: 1, href: "http://linkedin.com/in/bhanua4b02a213", icon: "Linkedin", color: "#0077b5" },
-  { id: 2, href: "https://www.facebook.com/bhanuprakash.tirupati.50?sfnsn=wiwspwa&mibextid=RUbZ1f", icon: "facebook", color: "#4264b2" },
-  { id: 3, href: "https://www.instagram.com/urs_b.h.a.n.u?utm_source=qr&igsh=MW55OHlsM285ZnN5MA==", icon: "Instagram", color: "#833ab4" },
-  { id: 4, href: "https://x.com/BhanuTirupati?t=oSHEmCYUt-PYWZqr9dFOHw&s=09", icon: "X", color: "#14171a" },
+  {
+    id: 1,
+    href: "http://linkedin.com/in/bhanua4b02a213",
+    icon: "Linkedin",
+    color: "#0077b5",
+  },
+  {
+    id: 2,
+    href: "https://www.facebook.com/bhanuprakash.tirupati.50?sfnsn=wiwspwa&mibextid=RUbZ1f",
+    icon: "facebook",
+    color: "#4264b2",
+  },
+  {
+    id: 3,
+    href: "https://www.instagram.com/urs_b.h.a.n.u?utm_source=qr&igsh=MW55OHlsM285ZnN5MA==",
+    icon: "Instagram",
+    color: "#833ab4",
+  },
+  {
+    id: 4,
+    href: "https://x.com/BhanuTirupati?t=oSHEmCYUt-PYWZqr9dFOHw&s=09",
+    icon: "X",
+    color: "#14171a",
+  },
 ];
 
 export const services = [
@@ -90,30 +109,26 @@ export const services = [
 export const project = [
   {
     id: 1,
-    image: restaurant_ss,
+    image: project1,
     date: "august 26th, 2020",
     title: "Simple Restaurant app",
     info: `Made a simple restaurant where user can access hotels list and can add their own. Used axios, local json server for backend, routers and implemented CRUD operators using axios`,
+    git: `https://github.com/Bhanu-git-push/SampleRestaurant`,
   },
   {
     id: 2,
     image: project2,
     date: "october 1th, 2020",
-    title: "best of java",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    title: "Clothing Store",
+    info: `Created a Clothing Store app using Authentication and authorization, Axios, React-Routers, React Redux, React Thunks, Filters and Sorting through axios api call, JSON server for data storing and CRUD operators, Styled components`,
+    git: `https://github.com/Bhanu-git-push/clothing-app`,
   },
   {
     id: 3,
     image: project3,
     date: "september 15th, 2020",
     title: "explore hong kong",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-  },
-  {
-    id: 4,
-    image: project4,
-    date: "december 5th, 2019",
-    title: "kenya highlights",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+    info: `Created a Comfy Store using Authentication and authorization, Axios, React-Routers, React Redux, React Thunks, Filters and Sorting through axios api call, Tailwind CSS.`,
+    git: `https://github.com/Bhanu-git-push/comfy_store`,
   },
 ];

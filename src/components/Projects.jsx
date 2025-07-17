@@ -20,6 +20,7 @@ const Projects = () => {
                   <p>{pro.title}</p>
                 </div>
                 <p>{pro.info}</p>
+                <a href={pro.git} target="_blank">Git hub link</a>
               </div>
             </article>
           );

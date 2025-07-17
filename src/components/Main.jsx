@@ -19,7 +19,7 @@ const Main = () => {
         </a> */}
         <a
             className="btn hero-btn"
-            href="/public/bhanu_FrontendDeveloper-1 2.pdf"
+            href="/Bhanu_FrontendDeveloper_Resume.pdf"
             download="BhanuPrakash-Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
