@@ -28,7 +28,7 @@ const About = () => {
             I started my journey working with Western Union, contributing to
             the development and support of applications across multiple
             countries and regions. My focus was on integrating diverse payment
-            methods using the AngularJS framework—ensuring a seamless user
+            methods using the React JS library—ensuring a seamless user
             experience across geographies and devices.
           </p>
           {/* <p>

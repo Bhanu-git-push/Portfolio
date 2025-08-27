@@ -128,7 +128,7 @@ export const project = [
     image: project3,
     date: "september 15th, 2020",
     title: "explore hong kong",
-    info: `Created a Comfy Store using Authentication and authorization, Axios, React-Routers, React Redux, React Thunks, Filters and Sorting through axios api call, Tailwind CSS.`,
+    info: `Created a Comfy Store using Authentication and authorization, Axios, React-Routers, React Redux, React Thunks, Filters and Sorting through axios api call, Tailwind CSS, Daisy UI.`,
     git: `https://github.com/Bhanu-git-push/comfy_store`,
   },
 ];
