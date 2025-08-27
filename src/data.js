@@ -13,7 +13,7 @@ export const pageLinks = [
 export const socialLinks = [
   {
     id: 1,
-    href: "http://linkedin.com/in/bhanua4b02a213",
+    href: "https://www.linkedin.com/in/bhanureactdev",
     icon: "Linkedin",
     color: "#0077b5",
   },
